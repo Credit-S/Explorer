@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%px;
+  background: url(/pic/camera.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.navbar {
+  width: 1366px;
+  height: 80px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.logo {
+  height: 70px;
+  width: 200px;
+  float: left;
+}
+
+.icon {
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px;
+  color: skyblue;
+  font-size: 30px;
+  font-family: "Times New Roman";
+}
+
+.unlist {
+  width: 700px;
+  height: 70px;
+  float: right;
+}
+.unlist ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unlist ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.unlist ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.unlist ul li a:hover {
+  color: skyblue;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px black, 0 0 25px whitesmoke, 0 0 5px white;
+}
+
+/*CENTER PARAGRAPH */
+
+.para {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  position: relative;
+}
+
+.para .words{
+  color: white;
+  font-weight: bold;
+  font-family: 'Times New Roman';
+  font-size: 40px;
+  margin-top: 10%;
+}
+
+.para .words span{
+  color: aquamarine;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 12%;
+}
+
+.para .words span:hover{
+  background-color: darkgray;
+}
+
+.para .btn{
+  height: 40px;
+  width: 100px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: none;
+  font-weight: bold;
+}
+
+.para .btn a{
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover{
+  background-color: aquamarine;
+}
